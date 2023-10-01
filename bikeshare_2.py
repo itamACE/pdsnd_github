@@ -310,6 +310,7 @@ def validate_numeric_input(prompt, start, end):
     return input_number
 
 def validate_text_input(prompt, options):  
+    
     possible_options = options.lower().strip().split(',') 
     while True:
         try:
@@ -324,8 +325,9 @@ def validate_text_input(prompt, options):
    
     return selected_option
 
-# Display raw data upon request by the user
+ 
 def display_records(df):
+    """ Display raw data upon request by the user""" 
     counter = 0 
  
     for i in range(counter, len(df.index)):
