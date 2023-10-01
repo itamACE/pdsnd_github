@@ -293,9 +293,9 @@ def user_stats(df):
     print("\nThis took {} seconds.".format(round((time.time() - start_time), 3)))
     print('-' * 100) 
 
-
-# This function validates user input
+ 
 def validate_numeric_input(prompt, start, end): 
+    """ Validate the numeric input from users and prompt for invalid entry. """ 
     input_number = 0 
     while True:
         try:
