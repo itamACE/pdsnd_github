@@ -9,7 +9,7 @@ October 1, 2023
 
 ### Files used
 Python code: bikeshare_2.py
-Data files: chicago.csv, washington.csv and new_york_city.csv. Please note these files are excluded in the gitrepo.
+Data files: Chicago.csv, Washington.csv and New_York_city.csv. Please note these files are excluded in the gitrepo.
 
 ### Credits
 This project is initiated by Udacity and its data are provided from "Programming for Data Science Nanodegree Program" course.
