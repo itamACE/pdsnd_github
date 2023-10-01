@@ -310,7 +310,7 @@ def validate_numeric_input(prompt, start, end):
     return input_number
 
 def validate_text_input(prompt, options):  
-    
+    """ Validate the text input from users and prompt for invalid entry. """ 
     possible_options = options.lower().strip().split(',') 
     while True:
         try:
